@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100vh;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.submit-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  button {
+    width: 50%;
+    color: #fff !important;
+    background-color: #f44336 !important;
+    transition:all 0.5s;
+    &:hover {
+      box-shadow: 2px 3px 30px -1px rgba(224,27,27,0.39);
+-webkit-box-shadow: 2px 3px 30px -1px rgba(224,27,27,0.39);
+-moz-box-shadow: 2px 3px 30px -1px rgba(224,27,27,0.39)
+      !important;
+    }
+  }
+}
+// h2{
+//   // font-size: 30px;
+//   // margin-bottom: 60px;
+// }

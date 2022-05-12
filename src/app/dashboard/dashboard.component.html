@@ -1,0 +1,35 @@
+<app-header (toggle)="drawer.toggle()"> </app-header>
+
+<mat-drawer-container class="example-container" autosize>
+  <mat-drawer #drawer class="sidenav" mode="side" opened>
+    <mat-list role="list">
+      <h2>Dashboard</h2>
+
+      <mat-list-item role="listitem" routerLink="addEmployee"
+        >Add Employee</mat-list-item
+      >
+      <mat-list-item role="listitem" routerLink="addGroup"
+        >Add Group</mat-list-item
+      >
+      <mat-list-item role="listitem" routerLink="addPermission"
+        >Add permissions</mat-list-item
+      >
+      <mat-list-item role="listitem" routerLink="allOrders"
+        >All Orders</mat-list-item
+      >
+      <mat-list-item role="listitem" routerLink="approvedOrders"
+        >Approved Orders</mat-list-item
+      >
+      <mat-list-item role="listitem" routerLink="sendOrder"
+        >Send Order</mat-list-item
+      >
+    </mat-list>
+  </mat-drawer>
+  <div class="sidenav-content">
+    <mat-card class="main-content">
+      <mat-card-content>
+        <router-outlet></router-outlet>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</mat-drawer-container>

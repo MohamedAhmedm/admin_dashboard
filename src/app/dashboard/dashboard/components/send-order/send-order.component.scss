@@ -1,0 +1,35 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  & > * {
+    margin: 20px 0;
+  }
+  h2 {
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: #f44336;
+  }
+}
+mat-label {
+  color: #f44336;
+}
+.btn {
+  color: #fff;
+  width: 100%;
+  
+  button {
+    background-color: #f44336;
+    width: 100%;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  padding: 20px;
+  width: 100%;
+}

@@ -1,12 +1,10 @@
-<app-header (toggle)="drawer.toggle()"> </app-header>
-
+<app-header> </app-header>
 <mat-drawer-container class="example-container" autosize>
   <mat-drawer #drawer class="sidenav" mode="side" opened>
     <mat-list role="list">
-      <h2>Dashboard</h2>
-
       <mat-list-item role="listitem" routerLink="addEmployee"
-        >Add Employee</mat-list-item
+        >Add Employee
+        </mat-list-item
       >
       <mat-list-item role="listitem" routerLink="addGroup"
         >Add Group</mat-list-item

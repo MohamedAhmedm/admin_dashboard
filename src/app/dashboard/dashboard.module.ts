@@ -8,18 +8,18 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { MatCardModule } from '@angular/material/card';
-import { AddPermissionComponent } from './dashboard/components/add-permission/add-permission.component';
-import { AddGroupComponent } from './dashboard/components/add-group/add-group.component';
-import { AddEmployeeComponent } from './dashboard/components/add-employee/add-employee.component';
+import { AddPermissionComponent } from './components/add-permission/add-permission.component';
+import { AddGroupComponent } from './components/add-group/add-group.component';
+import { AddEmployeeComponent } from './components/add-employee/add-employee.component';
 import { HeaderComponent } from './header/header.component';
 import { MatInputModule } from '@angular/material/input';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatTableModule } from '@angular/material/table';
 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { ApprovedOrdersComponent } from './dashboard/components/approved-orders/approved-orders.component';
-import { AllOrdersComponent } from './dashboard/components/all-orders/all-orders.component';
-import { SendOrderComponent } from './dashboard/components/send-order/send-order.component';
+import { ApprovedOrdersComponent } from './components/approved-orders/approved-orders.component';
+import { AllOrdersComponent } from './components/all-orders/all-orders.component';
+import { SendOrderComponent } from './components/send-order/send-order.component';
 
 const routes: Routes = [
   {

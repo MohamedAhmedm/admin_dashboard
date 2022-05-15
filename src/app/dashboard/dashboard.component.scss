@@ -2,8 +2,8 @@ mat-drawer-container {
   height: 100vh;
 }
 .main-content {
-  height: 100vh;
-  padding: 1rem;
+  height: fit-content;
+  padding: 0 3rem 3rem;
 }
 mat-drawer {
   margin-top: 20px !important;
@@ -23,10 +23,10 @@ mat-drawer {
       padding: 10px;
       border-radius: 4px;
     }
-    
+
     &-item {
       cursor: pointer;
-      transition: all 0.3s ease;
+      transition: background-color 0.3s ease;
       border-radius: 5px;
       margin-bottom: 10px;
       &:hover {

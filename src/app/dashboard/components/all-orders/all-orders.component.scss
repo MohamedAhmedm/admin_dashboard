@@ -4,7 +4,14 @@
     margin: 0 auto;
     th {
       text-align: center;
+      font-weight: bold;
+      font-size: 16px;
+      padding: 0;
     }
+    td {
+      padding: 10px 0;
+    }
+
     & > * {
       text-align: center;
     }
@@ -16,8 +23,11 @@
       text-align: center;
       width: 100%;
       display: flex;
-      justify-content: space-around;
-    //   margin-left: 60px;
+      justify-content: center;
+      //   margin-left: 60px;
+      button:not(:last-child) {
+        margin-right: 20px;
+      }
       button {
         // margin-left: 10px;
         width: 100px;
@@ -25,7 +35,9 @@
     }
   }
 }
-h2{
+h2 {
   text-align: center;
   font-size: 30px;
+  color: #f44336;
+  padding: 30px 0;
 }
